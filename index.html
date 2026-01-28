@@ -36,11 +36,11 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-image">
-                    <img src="profile.jpg" alt="Photo de profil" class="profile-photo">
+                    <img src="images/profile.jpg" alt="Photo de profil" class="profile-photo">
                 </div>
                 <div class="hero-text">
                     <h1>Zyad Reynier</h1>
-                    <p class="subtitle">Développeur Informatique en Formation</p>
+                    <p class="subtitle">Développeur ERP Junior en formation</p>
                     <p class="description">
                         Je suis étudiant en BUT Informatique actuellement en 3ème année et en alternance chez Systéléo à Toulouse. 
                         <br>
@@ -168,7 +168,7 @@
                 <!-- Projet 1 -->
                 <div id="projet-1" class="projet-card">
                     <div class="projet-image">
-                        <img src="projet1.jpg" alt="Proxy FTP en C">
+                        <img src="images/projet1.jpg" alt="Proxy FTP en C">
                         <span class="projet-badge">2024</span>
                     </div>
                     <div class="projet-content">
@@ -182,6 +182,7 @@
                         </p>
                         <div class="projet-tags">
                             <span>C</span>
+                            <span>Pair programming</span>
                         </div>
                         <div class="projet-links">
                             <a href="https://github.com/ClementReverbel/proxyFTP-C" target="_blank" class="btn-small btn-outline">
@@ -194,7 +195,7 @@
                 <!-- Projet 2 -->
                 <div id="projet-2" class="projet-card">
                     <div class="projet-image">
-                        <img src="projet2.jpg" alt="Application de gestion immobilière">
+                        <img src="images/projet2.jpg" alt="Application de gestion immobilière">
                         <span class="projet-badge">2024-2025</span>
                     </div>
                     <div class="projet-content">
@@ -226,7 +227,7 @@
                 <!-- Projet 3 -->
                 <div id="projet-3" class="projet-card">
                     <div class="projet-image">
-                        <img src="projet3.jpg" alt="Réstauration d'images">
+                        <img src="images/projet3.jpg" alt="Réstauration d'images">
                         <span class="projet-badge">2025</span>
                     </div>
                     <div class="projet-content">
@@ -240,6 +241,7 @@
                         </p>
                         <div class="projet-tags">
                             <span>Python</span>
+                            <span>Overleaf</span>
                         </div>
                         <div class="projet-links">
                             <a href="https://github.com/ClementReverbel/Restauration-d-image" target="_blank" class="btn-small btn-outline">
@@ -252,7 +254,7 @@
                 <!-- Projet 4 -->
                 <div id="projet-4" class="projet-card">
                     <div class="projet-image">
-                        <img src="projet4.jpg" alt="API de gestion d'équipe de volleyball">
+                        <img src="images/projet4.jpg" alt="API de gestion d'équipe de volleyball">
                         <span class="projet-badge">2024</span>
                     </div>
                     <div class="projet-content">
@@ -304,16 +306,16 @@
                             <span>Java</span>
                         </div>
                         <div class="langage-item">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cs/c.svg" alt="C">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="typescript">
+                            <span>Typescript</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
                             <span>C</span>
                         </div>
                         <div class="langage-item">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
                             <span>PHP</span>
-                        </div>
-                        <div class="langage-item">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sql/sql-original.svg" alt="SQL">
-                            <span>SQL</span>
                         </div>
                         <div class="langage-item">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
@@ -342,8 +344,20 @@
                             <span>MongoDB</span>
                         </div>
                         <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg" alt="Neo4j">
+                            <span>Neo4j</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis">
+                            <span>Redis</span>
+                        </div>
+                        <div class="langage-item">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
                             <span>Docker</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg" alt="Vagrant">
+                            <span>Vagrant</span>
                         </div>
                         <div class="langage-item">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
@@ -362,23 +376,31 @@
     <!-- CV -->
     <section id="cv" class="section">
         <div class="container">
-            <h2 class="section-title">Mes Parcours</h2>
-            <p class="section-subtitle">Retrouvez mes curriculum vitae ci-dessous</p>
-            
-            <div class="cv-container">
-                <div class="cv-item">
-                    <h3><i class="fas fa-file-pdf"></i> CV Professionnel</h3>
-                    <p>Version détaillée de mon parcours professionnel et académique.</p>
-                    <a href="cv_professionnel.pdf" target="_blank" class="btn btn-secondary">
-                        <i class="fas fa-download"></i> Télécharger
-                    </a>
+            <h2 class="section-title">Mon CV & Expériences</h2>
+            <p class="section-subtitle">Mon parcours professionnel et académique</p>
+
+            <div class="cv-experience-container">
+                <div class="cv-download">
+                    <div class="cv-item">
+                        <h3><i class="fas fa-file-pdf"></i> CV Professionnel</h3>
+                        <p>Version détaillée de mon parcours professionnel et académique.</p>
+                        <a href="images/CVZyadREYNIER.pdf" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-download"></i> Télécharger
+                        </a>
+                    </div>
                 </div>
-                <div class="cv-item">
-                    <h3><i class="fas fa-file-pdf"></i> CV Vidéo</h3>
-                    <p>Version vidéo de mon cv</p>
-                    <a href="cv_compact.pdf" target="_blank" class="btn btn-secondary">
-                        <i class="fas fa-download"></i> Télécharger
-                    </a>
+                <div class="cv-experience">
+                    <h3>Mon Expérience Professionnelle</h3>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h4>Entreprise Systéléo</h4>
+                            <span class="experience-date">2024 - Actuellement</span>
+                        </div>
+                        <p class="experience-role">Développeur ERP Junior en Alternance</p>
+                        <p class="experience-description">
+                            Après une période de stage effectuée en 2024, j'ai intégré Systéléo en tant qu'alternant. Cette entreprise est spécialisée dans l'intégration d'une ERP pour les coutiers en assurance. Mon rôle principal est de développer des tâches automatique (workflow) pour des clients mais aussi de faire de la maintenance corrective et évolutive sur l'ERP.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

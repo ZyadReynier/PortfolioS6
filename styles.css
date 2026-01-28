@@ -39,6 +39,7 @@ body {
     color: var(--text-primary);
     line-height: 1.6;
     overflow-x: hidden;
+    text-align: justify;
 }
 
 /* Container */
@@ -581,6 +582,18 @@ body {
     gap: 30px;
 }
 
+.cv-experience-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.cv-download {
+    display: flex;
+    flex-direction: column;
+}
+
 .cv-item {
     background-color: var(--dark-bg-tertiary);
     border: 1px solid var(--border-color);
@@ -612,6 +625,76 @@ body {
     color: var(--text-secondary);
     margin-bottom: 20px;
     flex-grow: 1;
+}
+
+.cv-experience {
+    background-color: var(--dark-bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 30px;
+    transition: all 0.3s ease;
+}
+
+.cv-experience:hover {
+    border-color: var(--accent-green);
+    box-shadow: 0 10px 30px rgba(16, 185, 129, 0.2);
+}
+
+.cv-experience h3 {
+    font-size: 1.5rem;
+    color: var(--accent-green);
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.experience-item {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.experience-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.experience-header h4 {
+    font-size: 1.2rem;
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.experience-date {
+    background-color: rgba(16, 185, 129, 0.1);
+    color: var(--accent-green);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    font-weight: 600;
+}
+
+.experience-role {
+    color: var(--accent-green);
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+}
+
+.experience-description {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
 }
 
 /* Contact Section */
@@ -784,6 +867,16 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .cv-experience-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .experience-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .hero-content {
         grid-template-columns: 1fr;
         gap: 30px;
