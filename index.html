@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zyad Reynier - Portfolio de Compétences</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>Zyad Reynier</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#langages" class="nav-link">Langages</a></li>
+                <li><a href="#cv" class="nav-link">CV</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Accueil -->
+    <section id="accueil" class="section hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="profile.jpg" alt="Photo de profil" class="profile-photo">
+                </div>
+                <div class="hero-text">
+                    <h1>Zyad Reynier</h1>
+                    <p class="subtitle">Développeur Informatique en Formation</p>
+                    <p class="description">
+                        Je suis étudiant en BUT Informatique actuellement en 3ème année et en alternance chez Systéléo à Toulouse. 
+                        <br>
+                        Ce portfolio présente mon évolution professionnelle et l'acquisition de mes compétences au cours de ma formation et de mes expériences.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projets" class="btn btn-primary">Découvrir mes projets</a>
+                        <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences" class="section">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            <p class="section-subtitle">Évolution de mes compétences à travers mes expériences</p>
+            
+            <div class="competences-grid">
+                <!-- Compétence 1: Réaliser -->
+                <div class="competence-card realiser">
+                    <div class="competence-header">
+                        <i class="fas fa-hammer"></i>
+                        <h3>Réaliser</h3>
+                    </div>
+                    <p class="competence-description">
+                        Concevoir, coder, tester et intégrer une solution informatique pour un client.
+                    </p>
+                    <div class="competence-skills">
+                        <span class="skill-tag">Développement Web</span>
+                        <span class="skill-tag">Programmation</span>
+                        <span class="skill-tag">Analyse</span>
+                    </div>
+                </div>
+
+                <!-- Compétence 2: Optimiser -->
+                <div class="competence-card optimiser">
+                    <div class="competence-header">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Optimiser</h3>
+                    </div>
+                    <p class="competence-description">
+                        Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d’exécution, précision, consommation de ressources.
+                    </p>
+                    <div class="competence-skills">
+                        <span class="skill-tag">Performance</span>
+                        <span class="skill-tag">Refactorisation</span>
+                    </div>
+                </div>
+
+                <!-- Compétence 3: Administrer -->
+                <div class="competence-card administrer">
+                    <div class="competence-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Administrer</h3>
+                    </div>
+                    <p class="competence-description">
+                        Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles des infrastructures, des services et des réseaux et optimiser le système informatique d’une organisation.
+                    </p>
+                    <div class="competence-skills">
+                        <span class="skill-tag">Linux/Windows</span>
+                        <span class="skill-tag">Réseaux</span>
+                        <span class="skill-tag">Sécurité</span>
+                    </div>
+                </div>
+
+                <!-- Compétence 4: Gérer -->
+                <div class="competence-card gerer">
+                    <div class="competence-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Gérer</h3>
+                    </div>
+                    <p class="competence-description">
+                        Concevoir, gérer, administrer et exploiter les données de l’entreprise et mettre à disposition toutes les informations pour un bon pilotage de l’entreprise.
+                    </p>
+                    <div class="competence-skills">
+                        <span class="skill-tag">Bases de données</span>
+                    </div>
+                </div>
+
+                <!-- Compétence 5: Conduire -->
+                <div class="competence-card conduire">
+                    <div class="competence-header">
+                        <i class="fas fa-compass"></i>
+                        <h3>Conduire</h3>
+                    </div>
+                    <p class="competence-description">
+                        Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et piloter un projet informatique avec des méthodes classiques ou agiles.
+                    </p>
+                    <div class="competence-skills">
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Formation</span>
+                    </div>
+                </div>
+
+                <!-- Compétence 6: Collaborer -->
+                <div class="competence-card collaborer">
+                    <div class="competence-header">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Collaborer</h3>
+                    </div>
+                    <p class="competence-description">
+                    Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique.
+                    </p>
+                    <div class="competence-skills">
+                        <span class="skill-tag">Travail d'équipe</span>
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">Communication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="projets" class="section">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <p class="section-subtitle">Découvrez les projets qui illustrent l'acquisition de mes compétences</p>
+            
+            <div class="projets-container">
+                <!-- Projet 1 -->
+                <div id="projet-1" class="projet-card">
+                    <div class="projet-image">
+                        <img src="projet1.jpg" alt="Proxy FTP en C">
+                        <span class="projet-badge">2024</span>
+                    </div>
+                    <div class="projet-content">
+                        <h3>Proxy FTP en C</h3>
+                        <p class="projet-competence">
+                            <strong>Compétences liées :</strong> 
+                            <a href="#competences" class="competence-ref">Administrer</a>
+                        </p>
+                        <p class="projet-description">
+                            Création d'un proxy ftp entre un client et un serveur distant en C, le proxy permettant d'exécuter LIST sur un serveur distant. Il y'a une connexion passive du serveur vers le client et une connexion active du client vers le serveur. 
+                        </p>
+                        <div class="projet-tags">
+                            <span>C</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="https://github.com/ClementReverbel/proxyFTP-C" target="_blank" class="btn-small btn-outline">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 2 -->
+                <div id="projet-2" class="projet-card">
+                    <div class="projet-image">
+                        <img src="projet2.jpg" alt="Application de gestion immobilière">
+                        <span class="projet-badge">2024-2025</span>
+                    </div>
+                    <div class="projet-content">
+                        <h3>Application de gestion immobilière</h3>
+                        <p class="projet-competence">
+                            <strong>Compétences liées :</strong> 
+                            <a href="#competences" class="competence-ref">Développer</a>,
+                            <a href="#competences" class="competence-ref">Gérer</a>,
+                            <a href="#competences" class="competence-ref">Conduire</a>,
+                            <a href="#competences" class="competence-ref">Collaborer</a>
+                        </p>
+                        <p class="projet-description">
+                            Immolink est une application de gestion de biens immobiliers destinée aux propriétaires privés. Elle simplifie la gestion locative en centralisant les informations essentielles (coordonnées des locataires, diagnostics, relevés de compteurs, etc.) et en automatisant des processus clés comme la régularisation des charges ou la déclaration fiscale.
+                        </p>
+                        <div class="projet-tags">
+                            <span>Java</span>
+                            <span>PL/SLQ</span>
+                            <span>MVC</span>
+                            <span>Agile</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="https://github.com" target="_blank" class="btn-small btn-outline">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 3 -->
+                <div id="projet-3" class="projet-card">
+                    <div class="projet-image">
+                        <img src="projet3.jpg" alt="Réstauration d'images">
+                        <span class="projet-badge">2025</span>
+                    </div>
+                    <div class="projet-content">
+                        <h3>Réstauration d'images</h3>
+                        <p class="projet-competence">
+                            <strong>Compétences liées :</strong>
+                            <a href="#competences" class="competence-ref">Optimiser</a>
+                        </p>
+                        <p class="projet-description">
+                            Projet de modélisation mathématique & informatique dans le but de restaurer la dégradation d'image à l'aide du langage de programmation Python.
+                        </p>
+                        <div class="projet-tags">
+                            <span>Python</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="https://github.com/ClementReverbel/Restauration-d-image" target="_blank" class="btn-small btn-outline">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 4 -->
+                <div id="projet-4" class="projet-card">
+                    <div class="projet-image">
+                        <img src="projet4.jpg" alt="API de gestion d'équipe de volleyball">
+                        <span class="projet-badge">2024</span>
+                    </div>
+                    <div class="projet-content">
+                        <h3>API de gestion d'équipe de volleyball</h3>
+                        <p class="projet-competence">
+                            <strong>Compétences liées :</strong> 
+                            <a href="#competences" class="competence-ref">Gérer</a>, 
+                            <a href="#competences" class="competence-ref">Réaliser</a>
+                        </p>
+                        <p class="projet-description">
+                            Une API qui propose une solution de gestion d’équipe de volley-ball conçu pour répondre aux besoins des entraîneurs et des gestionnaires sportifs.
+                        </p>
+                        <div class="projet-tags">
+                            <span>API REST</span>
+                            <span>JWT</span>
+                        </div>
+                        <div class="projet-links">
+                            <a href="https://github.com/ClementReverbel/API-VolleyTrack" target="_blank" class="btn-small btn-outline">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Langages et Technologies -->
+    <section id="langages" class="section">
+        <div class="container">
+            <h2 class="section-title">Langages et Technologies</h2>
+            <p class="section-subtitle">Les outils et langages avec lesquels je travaille</p>
+            
+            <div class="langages-container">
+                <!-- Langages -->
+                <div class="langages-category">
+                    <h3 class="category-title">Langages de Programmation</h3>
+                    <div class="langages-grid">
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                            <span>Python</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                            <span>Java</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cs/c.svg" alt="C">
+                            <span>C</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                            <span>PHP</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sql/sql-original.svg" alt="SQL">
+                            <span>SQL</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                            <span>HTML5</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Databases & Tools -->
+                <div class="langages-category">
+                    <h3 class="category-title">Bases de Données & Outils</h3>
+                    <div class="langages-grid">
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                            <span>MySQL</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                            <span>Docker</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                            <span>Git</span>
+                        </div>
+                        <div class="langage-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux">
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv" class="section">
+        <div class="container">
+            <h2 class="section-title">Mes Parcours</h2>
+            <p class="section-subtitle">Retrouvez mes curriculum vitae ci-dessous</p>
+            
+            <div class="cv-container">
+                <div class="cv-item">
+                    <h3><i class="fas fa-file-pdf"></i> CV Professionnel</h3>
+                    <p>Version détaillée de mon parcours professionnel et académique.</p>
+                    <a href="cv_professionnel.pdf" target="_blank" class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Télécharger
+                    </a>
+                </div>
+                <div class="cv-item">
+                    <h3><i class="fas fa-file-pdf"></i> CV Vidéo</h3>
+                    <p>Version vidéo de mon cv</p>
+                    <a href="cv_compact.pdf" target="_blank" class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Télécharger
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Me Contacter</h2>
+            <p class="section-subtitle">N'hésitez pas à me contacter pour toute opportunité ou question</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:zyad.reynier@example.com">zyad.iscles@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p><a href="tel:+33670286580">+33 6 70 28 65 80</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localisation</h4>
+                            <p>Toulouse</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#competences">Compétences</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Suivez-moi</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/ZyadReynier" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/zyad-reynier-1237762b6" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Portfolio de Compétences BUT Informatique S5-S6</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
